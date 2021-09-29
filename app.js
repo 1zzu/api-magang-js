@@ -10,6 +10,7 @@ var usersRouter = require('./routes/users');
 var absenRouter = require('./routes/absen');
 var lemburRouter = require('./routes/lembur');
 var staffRouter = require('./routes/staff');
+var izinRouter = require('./routes/izin');
 var pengumumanRouter = require('./routes/pengumuman');
 const { use } = require('./routes/index');
 const { UnsupportedMediaType } = require('http-errors');
@@ -33,6 +34,7 @@ app.use('/absen', absenRouter);
 app.use('/lembur', lemburRouter);
 app.use('/pengumuman', pengumumanRouter);
 app.use('/staff', staffRouter);
+app.use('/izin', izinRouter);
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));

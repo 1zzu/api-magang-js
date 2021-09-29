@@ -7,4 +7,4 @@ exports.API_URL = "http://localhost:3000";
 exports.DB_HOST = "localhost";
 exports.DB_USER = "root";
 exports.DB_PASS = "";
-exports.DB_NAME = "project_pkl";
+exports.DB_NAME = "project_pkl1";
